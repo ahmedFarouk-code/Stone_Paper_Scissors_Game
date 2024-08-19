@@ -103,7 +103,7 @@ enWinner WhoWonTheGame(short Player1WinTimes, short Computer2WinTimes)
 	{
 		return enWinner::Player1;
 	}
-	else if (Player1WinTimes > Computer2WinTimes)
+	else if (Player1WinTimes < Computer2WinTimes)
 	{
 		return enWinner::Computer;
 	}
